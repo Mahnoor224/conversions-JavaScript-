@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h2>JavaScript Error,Method and Arrow</h2>
+        <p>This program is about Error,Method and Arrow.</p>
+        <p id="error_message"></p>
+        <script>
+            let num = 4;
+            try {
+                num.toUpperCase();
+                addalert("error_message"); 
+            }
+            catch(err) {
+                document.getElementById("error_message").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
